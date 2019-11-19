@@ -1,0 +1,11 @@
+@import '../../../../assets/style/variables';
+
+.optionBar {
+    display: flex;
+    padding: 0 $default-margin;
+    align-items: center;
+    height: $optionbar-height;
+    overflow: hidden;
+    margin: 0px (-$default-margin);
+    background-color: $optionbar-background-color;
+}

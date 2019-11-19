@@ -1,0 +1,32 @@
+@import '../../../../assets/style/variables';
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 40px;
+    min-width: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: $item-default-margin;
+    cursor: pointer;
+
+    img {
+        height: 15px;
+        width: 15px;
+    }
+
+    span {
+        flex-grow: 1;
+        align-self: flex-end;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    &:hover {
+        color: $titlebar-text-color-hover;
+    }
+}

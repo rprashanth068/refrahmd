@@ -1,0 +1,24 @@
+@import '../../../../assets/style/variables';
+
+.titleBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: $titlebar-height;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 0 -5px;
+    background-color: $titlebar-background-color;
+
+    .title {
+        flex-grow: 1;
+        margin: $default-margin/2;
+        font-size: $titlebar-font-size;
+        color: $titlebar-text-color;
+        cursor: pointer;
+
+        &:hover {
+            color: $titlebar-text-color-hover;
+        }
+    }
+}

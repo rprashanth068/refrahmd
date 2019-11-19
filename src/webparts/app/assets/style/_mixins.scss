@@ -1,0 +1,25 @@
+@mixin formStyle {
+    margin: 40px 0;
+    border: $form-border;
+    box-shadow: 5px 5px 10px 1px #777;
+}
+
+@mixin inputBlock {
+    display: flex;
+    flex-direction: column;
+    // flex-grow: 1;
+    // min-height: 40px;
+    margin: $item-default-margin;
+
+    label {
+        margin-bottom: 2.5px;
+        color: $form-textBox-Name-color;
+    }
+
+    input,
+    textarea {
+        resize: none;
+        border: 1px solid $form-textBox-border-color;
+    }
+
+}

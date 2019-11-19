@@ -1,0 +1,16 @@
+@import '../../../../assets/style/variables';
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0 $default-margin/2;
+    margin: $default-margin $default-margin $default-margin*2 $default-margin;
+    background-color: $form-background-color;
+    border: 2px solid black;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}

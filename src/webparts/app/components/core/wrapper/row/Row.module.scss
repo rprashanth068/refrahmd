@@ -1,0 +1,20 @@
+@import '../../../../assets/style/variables';
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: $item-default-margin;
+    align-items: flex-end;
+    margin: 0 (-$item-default-margin);
+}
+
+// .row {
+//     // width: 100%;
+//     flex-grow: 1;
+//     display: grid;
+//     grid-template-rows: auto;
+//     padding: 5px;
+//     grid-gap: 10px;
+// }

@@ -1,0 +1,9 @@
+@import '../../../../assets/style/variables';
+
+.title {
+    font-size: 12px;
+    font-weight: bold;
+    flex-grow: 1;
+    margin: $item-default-margin*2 $item-default-margin;
+    padding-left: $item-default-margin;
+}

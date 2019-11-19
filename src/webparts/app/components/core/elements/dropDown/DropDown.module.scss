@@ -1,0 +1,19 @@
+@import '../../../../assets/style/variables';
+@import '../../../../assets/style/mixins';
+
+.dropDown {
+    min-width: 70px;
+    @include inputBlock;
+
+    select {
+        width: 100%;
+        border: 1px solid $form-textBox-border-color;
+        flex-grow: 1;
+        display: block;
+        height: $input-height;
+        text-indent: 5px;
+        box-sizing: border-box;
+
+        // padding: 2.5px;
+    }
+}

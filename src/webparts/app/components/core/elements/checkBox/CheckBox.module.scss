@@ -1,0 +1,50 @@
+@import '../../../../assets/style/variables';
+
+.styledCheckbox {
+    display: flex;
+    margin: $item-default-margin;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        display: block;
+        width: 15px;
+        cursor: pointer;
+        height: 15px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color: transparent;
+        border: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: white;
+        border: 1px solid black;
+        background-size: 15px 15px;
+        z-index: 1;
+    }
+
+    img {
+        display: block;
+        margin-left: -15px;
+        background-color: white;
+        border-radius: 2px;
+        box-sizing: border-box;
+        height: 15px;
+        width: 15px;
+        appearance: none;
+    }
+
+    // input[type="checkbox"]:checked {
+    //     // background-image: url('../../assets/img/NRD-00001_02013_ICO_CheckBox\ cccccc_001.svg');
+    //     border: none;
+    // }
+
+    label {
+        box-sizing: border-box;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,9 @@
+@import "../../../../assets/style/variables";
+
+.page {
+  padding: 0 0 $default-margin/2 0;
+  border: $form-border;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 1px #777;
+  background-color: $form-background-color;
+}

@@ -1,0 +1,37 @@
+// fonts
+$font-size:11px;
+$font-family:'Arial';
+
+// input
+$input-height:25px;
+
+// optionBar
+$optionbar-height:24px;
+$optionbar-background-color:#52525b;
+$optionbar-text-color:#cccccc;
+
+//titleBar
+$titlebar-height:26px;
+$titlebar-font-size:12px;
+$titlebar-background-color:#000033;
+$titlebar-icon-color:$optionbar-text-color;
+$titlebar-text-color:#fff;
+$titlebar-text-color-hover:#ff6600;
+
+// Form
+$form-background-color:$optionbar-text-color;
+$form-text-header-color:#000;
+$form-textBox-Name-color:#333;
+$form-textBox-Name-value:$form-text-header-color;
+$form-seprator-color:$form-textBox-Name-color;
+$form-textBox-border-color:$form-textBox-Name-color;
+$form-border:1px solid black;
+
+//Table
+$table-row-height:$optionbar-height;
+$table-header-background-color:#999;
+$table-header-text-color:#fff;
+
+// Margin
+$default-margin:10px;
+$item-default-margin:5px

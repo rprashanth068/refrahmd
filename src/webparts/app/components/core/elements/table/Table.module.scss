@@ -1,0 +1,80 @@
+@import "../../../../assets/style/variables";
+@import "../../../../assets/style/mixins";
+
+.frmBlock {
+  display: flex;
+  @include inputBlock;
+  margin: 0 $item-default-margin $item-default-margin $item-default-margin;
+  width: 100%;
+
+  .table {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: relative;
+
+    ul {
+      display: grid;
+      align-items: center;
+
+      li {
+        display: flex;
+        border-right: 1px solid black;
+        line-height: $table-row-height;
+        padding: 0 $item-default-margin*2;
+        justify-content: center;
+
+        &:first-child {
+          height: $table-row-height;
+          align-items: center;
+          // margin-left: -5px;
+        }
+
+        &:nth-child(3) {
+          flex-grow: 1;
+        }
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+
+    .header {
+      background-color: $table-header-background-color;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin-bottom: 24px;
+
+      ul {
+        height: $table-row-height;
+
+
+        li {
+          color: $table-header-text-color;
+        }
+      }
+    }
+
+    .body {
+      min-height: 150px;
+      margin-top: 24px;
+      flex-grow: 1;
+
+      ul {
+        justify-content: center;
+
+        &:nth-child(odd) {
+          background-color: white;
+        }
+
+        &:last-child {
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+  }
+}
